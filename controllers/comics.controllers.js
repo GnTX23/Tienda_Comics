@@ -1,21 +1,12 @@
-import { TablaVentas } from "../models/ventas.models.js";
+import { TablaVentas } from "../modules/comis.models.js";
 
-// Crear venta
-export const crearVenta = async () => {
-    try {
+TablaVentas.create({
 
-        const nuevaVenta = await TablaVentas.create({
-            cliente: "Jennifer Lopez",
-            comic: "Spider-Man #1",
-            cantidad: 2,
-            precio: 120,
-            total: 240
-        });
+    Cliente: "Jennifer Lopez",
+    Comic: "Spider-Man #1",
+    Cantidad: 2,
+    Precio: 120,
+    Total: 240
+})
 
-        console.log("Venta registrada");
-        console.log(nuevaVenta);
-
-    } catch (error) {
-        console.log(error);
-    }
-};
+export const test5 = (()=>console.log("Si se esta llamando a la base de datos"));
