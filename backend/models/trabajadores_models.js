@@ -1,11 +1,12 @@
 import {shema, model} from 'mongoose';
 
-const trabajadoresShema = new shema ({
-    nombre: string,
-    puesto: string,
-    matricula: string,
-    correo: string,
-    salario: number,    
+const trabajadoresSchema = new Schema ({
+    nombre: String,
+    puesto: String,
+    matricula: String,
+    correo: String,
+    salario: Number,    
 })
-export const Trabajadores = model('Trabajadores Actuales', trabajadoresShema);
+export const TablaTrabajadores = new model('Trabajadores Actuales', trabajadoresSchema);
 
+    
