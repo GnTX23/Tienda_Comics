@@ -5,6 +5,6 @@ const EsquemaClientes = new Schema({
     nombre: String,
     apellido: String,
     telefono: Number,
-    email: String,});
+    email: String});
 
     export const TablaClientes = new model('Tabla de Clientes', EsquemaClientes);   

@@ -1,6 +1,6 @@
 import {Schema, model} from "mongoose";
 
-const esquemaComics = new schema({
+const esquemaComics = new Schema({
     IdComic:Number,
     Autor:String,
     Titulo:String,

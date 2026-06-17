@@ -1,4 +1,4 @@
-import {TablaClientes} from '../modules/clientes_modules.js';
+import { TablaClientes } from "../modules/clientes_modules.js";
 
 TablaClientes.create({
     id_nombre: 1,

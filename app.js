@@ -3,6 +3,11 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import express from 'express';
 import { test } from "./backend/controllers/clientes_controller.js";
+import { test2 } from './backend/controllers/Comics.controller.js';
+import { test3 } from './backend/controllers/DetalleVenta.controllers.js';
+import { test4 } from './backend/controllers/trabajadores_controllers.js';
+import { test5 } from './backend/controllers/comics.controllers.js';
+import { test6 } from './backend/controllers/proveedores.controllers.js';
 
 
 //CONEXION_DB
@@ -31,3 +36,8 @@ app.listen (4000, () => {
 
 
 test();
+test2();
+test3();
+test4();
+test5();
+test6();

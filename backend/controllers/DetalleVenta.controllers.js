@@ -1,4 +1,4 @@
-import { TablaDetalle } from "../Models/DetalleVenta.model.js";
+import {TablaDetalle} from "../modules/DetalleVenta.model.js";
 
 TablaDetalle.create(
 {
@@ -66,4 +66,4 @@ TablaDetalle.create(
 }
 )
 
-export const test = (()=>console.log("Si se esta llamando a la base de datos "));
+export const test3 = (()=>console.log("Si se esta llamando a la base de datos "));
