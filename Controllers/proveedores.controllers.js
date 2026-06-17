@@ -1,4 +1,4 @@
-import {TablaProveedores} from "../Models/proveedores.models.js";
+import {TablaProveedores} from "../modules/proveedores.models.js";
 
 TablaProveedores.create(
   {
@@ -51,4 +51,4 @@ TablaProveedores.create(
   }
 )
 
-export const test = (()=>console.log("Si se esta llamando al controlador"));
+export const test6 = (()=>console.log("Si se esta llamando al controlador"));
