@@ -50,36 +50,7 @@ TablaComics.create(
     Genero: "Superhéroes",
     Stock: 10
 }
-,
-{
-    IdComic: 6,
-    Autor: "Hajime Isayama",
-    Titulo: "Attack on Titan Vol. 1",
-    Editorial: "Kodansha",
-    Precio: 190,
-    Genero: "Manga",
-    Stock: 18
-}
-,
-{
-    IdComic: 7,
-    Autor: "Akira Toriyama",
-    Titulo: "Dragon Ball Vol. 1",
-    Editorial: "Shueisha",
-    Precio: 160,
-    Genero: "Manga",
-    Stock: 25
-}
-,
-{
-    IdComic: 8,
-    Autor: "Neil Gaiman",
-    Titulo: "The Sandman",
-    Editorial: "DC Comics",
-    Precio: 400,
-    Genero: "Fantasía",
-    Stock: 7
-}
+
 )
 
 export const test = (()=>console.log("Si se esta llamando a la base de datos"));
