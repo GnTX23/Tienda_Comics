@@ -1,4 +1,4 @@
-import {TablaTrabajadores} from '../models/trabajadores_models.js';
+import {TablaTrabajadores} from '../modules/trabajadores_models.js';
 
 TablaTrabajadores.create({
     nombre: 'Juan Perez',
@@ -43,4 +43,4 @@ TablaTrabajadores.create({
     salario: 5000.00,
 })
 
-export const test = ()=> console.log("Si se esta llamando al controlador correctamente")
+export const test4 = ()=> console.log("Si se esta llamando al controlador correctamente")

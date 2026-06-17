@@ -1,4 +1,4 @@
-import {Shema, model} from 'mongoose';
+import {Schema, model} from 'mongoose';
 
 const EsquemaTrabajadores = new Schema ({
     nombre: String,
