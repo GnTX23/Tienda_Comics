@@ -1,4 +1,4 @@
-import { TablaDetalle } from "../Models/DetalleVenta.model";
+import { TablaDetalle } from "../Models/DetalleVenta.model.js";
 
 TablaDetalle.create(
 {
